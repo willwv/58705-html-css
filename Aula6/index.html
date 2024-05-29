@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 6 - HTML</title>
+</head>
+
+<body>
+    <h1>Receita de bolo!</h1>
+
+    <h3>Ingredientes</h3>
+    <ul>
+        <li>2 xícaras (chá) de açúcar</li>
+        <li>4 colheres (sopa) de margarina</li>
+        <li>1 e 1/2 xícara (chá) de leite</li>
+        <li>3 xícaras (chá) de farinha de trigo</li>
+        <li>3 ovos</li>
+        <li>1 colher (sopa) bem cheia de fermento em pó</li>
+    </ul>
+
+    <h3>Modo de preparo</h3>
+    <ol>
+        <li>Bata as claras em neve e reserve.</li>
+        <li>Misture as gemas, a margarina e o açúcar até obter uma massa homogênea.</li>
+        <li>crescente o leite e a farinha de trigo aos poucos, sem parar de bater.</li>
+        <li>Por último, adicione as claras em neve e o fermento.</li>
+        <li>Despeje a massa em uma forma grande de furo central untada e enfarinhada.</li>
+        <li>Asse em forno médio 180 °C, preaquecido, por aproximadamente 40 minutos ou ao furar o bolo com um garfo,
+            este saia limpo.</li>
+    </ol>
+
+    <ul>
+        <li>
+            <ol>
+                <li>primeiro item ordenado</li>
+                <li>segundo item ordenado</li>
+            </ol>
+        </li>
+        <li>
+            <ol>
+                <li>primeiro item ordenado</li>
+                <li>segundo item ordenado</li>
+            </ol>
+        </li>
+    </ul>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>HTML é a linguagem de marcação de textos utilizada
+            para exibir textos como páginas na Internet.
+        </dd>
+        <dt>HTML2</dt>
+        <dd>HTML é a linguagem de marcação de textos utilizada
+            para exibir textos como páginas na Internet.
+        </dd>
+    </dl>
+
+    <table border>
+        <!-- tr = table row / linha da tabela -->
+        <!-- th = table header / cabeçalho da tabela -->
+        <!-- td = table date / dado da tabela -->
+        <tr>
+            <th>Fruta</th>
+            <th>Verdura</th>
+            <th>Legume</th>
+        </tr>
+        <tr>
+            <td>Maça</td>
+            <td></td>
+            <td>Amendoim</td>
+        </tr>
+        <tr>
+            <td>Laranja</td>
+            <td></td>
+            <td>Trigo</td>
+        </tr>
+    </table>
+
+    <form>
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <!-- <textarea></textarea> -->
+
+            <label for="genero">Gênero:</label>
+            <input type="radio" name="genero" value="masculino"> <label>Masculino</label>
+            <input type="radio" name="genero" value="feminino"> <label>Feminino</label>
+            <input type="radio" name="genero" value="outro"> <label>Outro</label>
+
+            <br>
+            <br>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome">
+            <br>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome">
+            <br>
+            <br>
+
+            <label for="tamanho">Tamanho:</label>
+            <select name="tamanho">
+                <option value="P">Pequeno</option>
+                <option value="M">Medio</option>
+                <option value="G">Grande</option>
+            </select>
+            <br>
+            <br>
+
+
+            <button type="submit">
+                Enviar
+            </button>
+        </fieldset>
+    </form>
+
+    <!-- <a href="outraspaginas/spoiler.html#rodape" target="_blank">Click aqui para ser redirecioando para outra pagina</a>
+    <img src="https://www.petz.com.br/blog/wp-content/uploads/2019/07/vida-de-gato.jpg" alt="Professor Coderhouse" > -->
+
+    <a href="https://www.petz.com.br/blog/bem-estar/vida-de-gato/">
+        <img src="https://www.petz.com.br/blog/wp-content/uploads/2019/07/vida-de-gato.jpg" alt="Professor Coderhouse">
+    </a>
+
+    <iframe width="1903" height="784" src="https://www.youtube.com/embed/nxbJ6pvkZvE"
+        title="Inteligência artificial (muito além da robótica) | Tech na Real #01" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+
+</html>
