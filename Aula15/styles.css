@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+nav img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-left: 20px;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#mecanica {
+    background: url('images/mecanica-automotiva.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+.mecanica-content {
+    max-width: 700px;
+}
+
+.mecanica-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.mecanica-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background: blue;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.fakeImage {
+    width: 200px;
+    height: 200px;
+    border: solid 1px red;
+    display: inline-block;
+    background-image: linear-gradient(red, blue);
+}

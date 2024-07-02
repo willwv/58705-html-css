@@ -1,0 +1,20 @@
+
+.calsseDaDiv{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+
+    background-image: url("gatito.jfif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "William";
+    src: url("barcode.ttf");
+}
+
+.usandoFonteWilliam{
+    font-family: "William";
+}

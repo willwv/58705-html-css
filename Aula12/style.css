@@ -1,0 +1,30 @@
+.amarelo {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+
+    position: absolute;
+    top:20px;
+    z-index: 1;
+
+}
+.vermelho {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top:30px;
+
+    z-index: 2;
+}
+.azul {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+
+    z-index: 4;
+}

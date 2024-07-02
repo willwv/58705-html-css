@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    border-radius: 20px;
+}
+
+body {
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-template-areas: 
+    "verde verde azul azul azul"
+    "verde verde laranja laranja verdeEscuro"
+    "rosa rosa laranja laranja marrom"
+    ;
+}
+
+.verde {
+    background-color: green;
+    width: 180px;
+    height: 180px;
+
+    grid-area: verde;
+}
+
+.azul {
+    background-color: blue;
+    height: 90px;
+    width: 270px;
+
+    grid-area: azul;
+    justify-self: end;
+}
+
+.rosa {
+    background-color: pink;
+    height: 90px;
+    width: 180px;
+
+    grid-area: rosa;
+    align-self: end;
+}
+
+.laranja {
+    background-color: orange;
+    width: 180px;
+    height: 180px;
+
+    grid-area: laranja;
+    align-self: end;
+    justify-self: center;
+}
+
+.marrom {
+    background-color: brown;
+    width: 90px;
+    height: 90px;
+
+    grid-area: marrom;
+    align-self: end;
+    justify-self: end;
+}
+
+.verdeEscuro {
+    background-color: rgb(2, 53, 2);
+    width: 90px;
+    height: 90px;
+
+    grid-area: verdeEscuro;
+    align-self: center;
+    justify-self: end;
+}

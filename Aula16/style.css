@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* border: solid 1px black; */
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-rows: repeat(3, 2fr) 1fr;
+    grid-template-areas:
+    "nav header header"
+    "nav produtos aside"
+    "nav servicos aside"
+    "nav footer footer"
+    ;
+}
+
+nav {
+    grid-area: nav;
+    background-color: aqua;
+}
+
+header {
+    grid-area: header;
+    background-color: aqua;
+}
+
+#produtos {
+    grid-area: produtos;
+    background-color: aqua;
+
+    overflow: auto;
+}
+
+#servicos {
+    grid-area: servicos;
+    background-color: aqua;
+}
+
+aside{
+    grid-area: aside;
+    background-color: aqua;
+}
+
+footer {
+    grid-area: footer;
+    background-color: aqua;
+}
+
+#produtos > div {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "title description"
+    ;
+    justify-items: center;
+    align-items: center;
+
+}
+
+div > h1 {
+    grid-area: title;
+}
+
+div > p {
+    grid-area: description;
+}

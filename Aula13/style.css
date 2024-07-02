@@ -1,0 +1,105 @@
+/* 
+
+.qualquecoisa:active {
+    background-color: aqua;
+}
+
+a {
+    background-color: white;
+    border: 1px solid white;
+}
+
+.primeirolink:visited {
+    background-color: yellow;
+    border-color: hotpink;
+    color: hotpink;
+}
+
+.segundo:visited {
+    background-color: yellow;
+    border-color: hotpink;
+    color: hotpink;
+}
+
+input {
+    padding: 20px;
+}
+
+input:focus {
+    background-color: aqua;
+}
+
+.secao:nth-child(2n){
+    background-color: aqua;
+}
+
+li:not(.diferente) {
+    background-color: yellow;
+}
+
+/* 
+:checked {
+    margin-left: 25px;
+    color: red;
+} */
+
+
+/* input[type="radio"]:checked {
+    margin-left: 25px;
+    color: red;
+} */
+
+ 
+/* input[type="checkbox"]:checked {
+    margin-left: 25px;
+} */
+
+/* option:checked {
+    color: red;
+}
+
+:disabled {
+    background-color: red;
+}
+
+
+input[type=email]:invalid {
+    background: orange;
+}
+
+input[type=email]:valid {
+    background: green;
+}
+
+input:required {
+    background: red;
+}
+
+
+p::first-line {
+    background-color: aquamarine;
+}
+
+p::first-letter {
+    font-size: 50px;
+}
+
+::placeholder {
+    color: red;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
+
+::marker {
+    color: red;
+    font-size: 23px;
+}  */
+
+
+
+div section:nth-child(2n) {
+    background-color: blue;
+}

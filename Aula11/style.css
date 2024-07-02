@@ -1,0 +1,55 @@
+* {
+    
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+}
+
+nav {
+    min-height: 10%;
+    border: 1px solid aqua;
+}
+
+main {
+    min-height: 80%;
+    border: 1px solid aqua;
+    overflow: hidden;
+}
+
+footer {
+    min-height: 10%;
+    border: 1px solid aqua;
+}
+
+.principal {
+    background-color: aqua;
+}
+
+.principal__titulo {
+    color:black;
+}
+
+.principal__titulo--destaque {
+    color: red;
+}
+
+.principal__section__paragrafo {
+
+}
+
+.principal__section {
+    border: 1px solid black;
+}
+
+.btn {
+    border-radius: 20px;
+    background-color: blue;
+}
+
+.principal__section__text{
+    border: 1px solid black;
+
+}
